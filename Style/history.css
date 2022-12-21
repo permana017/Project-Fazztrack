@@ -1,0 +1,29 @@
+.history-page{
+    display: flex;
+    justify-content: center;
+    background-image: url(../Asset/backgroun-history.webp);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.history-page .desc-history{
+    color:white;
+    font-family: Rubik;
+    margin-top:7rem;
+}
+.history-page .box-history{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:6rem 0;
+    width: 100%;
+}
+.history-page .box-history .card-history{
+    display: flex;
+    width: 29%;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius:20px;
+    margin: 12px 0;
+}

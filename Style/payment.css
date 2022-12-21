@@ -1,0 +1,32 @@
+.payment-page{
+    display: flex;
+    justify-content: center;
+    background-image: url(../Asset/payment-background.webp);
+    background-size: cover;
+}
+.payment-page .box-payment{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.payment-page .box-payment .summary{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+.box-payment .summary .card-order{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 30px;
+    width: 26vw;
+    padding: 5rem 2.5rem;
+    margin-bottom: 100px;
+}
+.payment-page .box-payment .address{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}

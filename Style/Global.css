@@ -15,6 +15,16 @@ body {
     flex-direction: row;
     flex: 1;
 }
+
+/* NAVBAR-PROFILE */
+
+.nav-profile {
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+}
+/* NAVBAR-PROFILE END*/
+
 .btn {
     font-family: rubik;
     font-weight: 700;
@@ -29,8 +39,6 @@ body {
 }
 
 .btn2 {
-    background: #e6e6e6;
-    color: #333;
     outline: 0;
     border: 0;
     padding: 10px 30px;
@@ -148,6 +156,12 @@ body {
 .tw-40{
     width: 70%;
 }
+.tw-60{
+    width: 60%;
+}
+.tw-100{
+    width: 100%;
+}
 .desc {
     font-family: Rubik;
     font-size: 16px;
@@ -169,6 +183,12 @@ body {
 .text-secondary {
     color: #6A4029;
     font-size: 24px;
+}
+.text-block {
+    color: #000000;
+}
+.text-white{
+    color: #FFFFFF;
 }
 
 /* FONT-SIZE */
@@ -298,8 +318,17 @@ body {
 .p-0 {
     padding: 0;
 }
+.p-10 {
+    padding: 10;
+}
 .pr-35 {
     padding-right: 35px;
+}
+.p-xy-20 {
+    padding: 20px 20px;
+}
+.mt-24 {
+    margin-top: 2rem;
 }
 .mt-45 {
     margin-top: 3rem;
@@ -432,6 +461,7 @@ body {
 /* FOOTER */
 
 .footer {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;

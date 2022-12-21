@@ -15,7 +15,7 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap"
             rel="stylesheet">
-        <title>Product</title>
+        <title>Product-detail</title>
     </head>
     <body>
         <nav class="navbar">
@@ -45,7 +45,7 @@
             </div>
         </nav>
         <main class="detail-product">
-            <ection class="container flex">
+            <section class="container flex">
                 <section class="image">
                     <img
                         src="Asset/cold-brew.webp"
@@ -62,32 +62,94 @@
                         style="padding:25px 0">Ask a Staff</button>
                 </section>
                 <section class="description">
-                    <div class="desc-product text-2xl">
+                    <div class="desc-product text-2xl text-secondary">
                         <p>Delivery only on Monday to friday at 1 - 7 pm</p>
                         <p>Cold brewing is a method of brewing that combines ground coffee and cool
                             water and uses time instead of heat to extract the flavor. It is brewed in small
                             batches and steeped for as long as 48 hours.</p>
-                        <h4 >Choose a size</h4>
-                        <di class="fle">
-                            <button></button>
-                            <button></button>
-                            <button></button>
-                        </div>
+                        <h4 class="text-center text-block ">Choose a size</h4>
+                        <di class="box-btn">
+                            <button class="btn-size ">R</button>
+                            <button class="btn-size">L</leg>
+                        </button>
+                        <button class="btn-size">XL</button>
                     </div>
-                </section>
+                </div>
+                <h4 class="text-center text-block ">Choose Delivery Methods</h4>
+                <div class="box-btn">
+                    <button class="btn p-xy-20  mr-10 btn-secondary">Dine in</button>
+                    <button class="btn p-xy-20 mr-10">Door Delivery</button>
+                    <button class="btn p-xy-20">Pick up</button>
+                </div>
+                <div class="set-time">
+                    <label for="set-time">Set time :</label>
+                    <input type="text" placeholder="Enter the time you’ll arrived">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <main class="box-quantity">
+            <section class="container">
+                <div class="box-inner">
+                    <section class="image flex">
+                        <div class="flex items-center">
+                            <img
+                                src="Asset/cold-brew.webp"
+                                alt="cold-brew"
+                                width="100px"
+                                height="100px"
+                                class="rounded-full mr-40">
+                            <div>
+                                <h2>COLD BREW</h2>
+                                <p>x1 (Large)</p>
+                                <p>x1 (Regular)</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <button >-</i></button>
+                            <h3 class="">2</h3>
+                            <button >+</button>
+                        </div>
+                    </section>
+                    <button class="btn btn-primary rounded-xl" style="margin-left:3rem;">CHECKOUT</button>
+                </div>
             </section>
         </main>
-        <!-- <footer class="footer"> <div class="container"> <div class="inner">
-        <section class="side-left"> <div class="brand" > <img src="../Asset/coffee
-        1.png" alt="coffe"> <h3>permana coffe</h3> </div> <p class="description">Coffee
-        Shop is a store that sells some good meals, and especially coffee. We provide
-        high quality beans</p> <div class="sosmed"> <img src="../Asset/facebook.png"
-        alt="facebook-logo"> <img src="../Asset/tweeter.png" alt="tweeter-logo"> <img
-        src="../Asset/instagram.png" alt="instagram-logo"> </div> <p
-        class="copyrigth">©2020CoffeeStore</p> </section> <div class="product">
-        <p>Product</p> <p>Download</p> <p>Pricing</p> <p>Pricing</p> <p>Countries</p>
-        <p>Blog</p> </div> <div class="enagage"> <p>Engage</p> <p>Coffe Shop ?</p>
-        <p>FAQ</p> <p>About Us</p> <p>Privacy Policy</p> <p>Privacy Policy</p> </div>
-        </div> </div> </footer> -->
-    </body>
+        <div class="container">
+            <div class="inner">
+                <section class="side-left">
+                    <div class="brand">
+                        <img src="Asset/logo.svg" alt="coffe">
+                        <h3>permana coffe</h3>
+                    </div>
+                    <p class="description">Coffee Shop is a store that sells some good meals, and
+                        especially coffee. We provide high quality beans</p>
+                    <div class="sosmed">
+                        <img src="../Asset/facebook.png" alt="facebook-logo">
+                        <img src="../Asset/tweeter.png" alt="tweeter-logo">
+                        <img src="../Asset/instagram.png" alt="instagram-logo">
+                    </div>
+                    <p class="copyrigth">©2020CoffeeStore</p>
+                </section>
+                <div class="product">
+                    <p>Product</p>
+                    <p>Download</p>
+                    <p>Pricing</p>
+                    <p>Pricing</p>
+                    <p>Countries</p>
+                    <p>Blog</p>
+                </div>
+                <div class="enagage">
+                    <p>Engage</p>
+                    <p>Coffe Shop ?</p>
+                    <p>FAQ</p>
+                    <p>About Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
