@@ -405,7 +405,7 @@ body {
     height: auto;
     position: relative;
 }
-.info-wrapper .box-content {
+.info-wrapper .inner .card-content {
     background-color: #fff;
     width: 100%;
     height: 100%;
